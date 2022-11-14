@@ -1,0 +1,16 @@
+﻿.header { /*sytling the header*/
+  padding: 60px;
+  text-align: center;
+  background: red;
+  color: white;
+  font-size: 30px;
+}
+.main_text { /*styling paragraphs of the body of the text*/
+  padding: 60px;
+  text-align: center;
+  background: white;
+  color: black
+  font-size: 30px;
+  line-height: 32px;   /* within paragraph */
+  margin-bottom: 30px; /* between paragraphs */
+  }

@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Image Search</title>
+    <link rel="stylesheet" href="CSS_normalizing_browsers.css" />
+    <link rel="stylesheet" href="Advanced search_grid.css" />
+</head>
+<body>
+    <nav>
+        <a href="index.html" target="_blank"> Google Search</a>
+    </nav>
+    <header>Advanced Search</header>
+    <div id="column_1">
+        <h2>Find pages with....</h2>
+        <form action="https://www.google.com/search">
+            <label for="FLW">all these words:</label>
+            <input class="input" type="text" id="ATW" name="ATW">
+            <label for="TEWP">this exact word or phrase:</label>
+            <input class="input" type="text" id="TEWP" name="TEWP">
+            <label for="AnyTW">any of these words:</label>
+            <input class="input" type="text" id="AnyTW" name="AnyTW">
+            <label for="NTW">none of these words:</label>
+            <input class="input" type="text" id="NTW" name="NTW">
+            <div id="search_button">
+                <input type="submit" value="Advanced Search">
+            </div>  
+        </form>
+    </div>
+    <section id="column_2">
+        <h2>To do this in the search box.</h2>
+        <p>Type the important words: <i>tri-colour rat terrier</i></p>
+        <p>Put exact words in quotes: <i>"rat terrier"</i></p>
+        <p>Type OR between all the words you want: <i>miniature OR standard</i></p>
+        <p>Put a minus sign just before words that you don't want: <i>-rodent, -"Jack Russell"</i></p>
+    </section>
+</body>
+</html>

@@ -1,0 +1,15 @@
+﻿/* the padding and border element no longer increase its width
+    (webkit and moz for experimental features in specific browsers) 
+    from https://learnlayout.com/box-sizing.html */
+* {
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box
+}
+/* set the margin to auto "0" and "auto"
+    The element will take up the width you specify, then the remaining space will be split evenly between the two margins.
+    source : https://learnlayout.com/margin-auto.html
+*/
+* {margin: auto
+
+}

@@ -1,0 +1,88 @@
+﻿/* body general */
+
+body {
+    font-family: sans-cherif;
+    font-size: 1.2em;
+    padding: 1%;
+    display: grid;
+    grid-template-areas:
+        "area1 area1"
+        "area2 area2"
+        "area3 area4";
+}
+/*setting up grid*/
+nav {
+    background-color: white;
+    grid-area: area1;
+    padding: 1em;
+    text-align:right;
+}
+header {
+    background-color: white;
+    padding: 20px;
+    font-size: 2em;
+    grid-area: area2;
+    border-bottom: 1px solid black;
+    text-align: left;
+}
+form {
+    display: grid;
+    grid-template-columns: auto 2fr;
+    background-color: violet;
+    grid-area: area3;
+    width: 900px;
+}
+#column_2 {
+    background-color: blue;
+    grid-area: area4;
+    width: 400px;
+    text-align: Left;
+
+    /* link general */
+    a {
+    width: 10%;
+    padding:1%;
+}
+    /* unvisited link */
+    a:link {
+        color: black;
+    }
+
+    /* visited link */
+    a:visited {
+        color: orange;
+    }
+
+    /* mouse over link */
+    a:hover {
+        color: greenyellow;
+    }
+
+    /* selected link */
+    a:active {
+        color: cornflowerblue;
+    }
+
+/* mouse over link */
+    .search_button:hover {
+        background-color: lightgray;
+    }
+
+@media screen and (min-width: 400px) {
+    body {
+        grid-template-areas:
+            "area1"
+            "area2"
+            "area3"
+            "area4";
+    }
+}
+
+@media screen and (min-width: 700px) {
+    body {
+        grid-template-areas:
+            "area1 area1"
+            "area2 area2"
+            "area3 area4";
+    }
+}
